@@ -1,0 +1,2 @@
+mindprobe tty7         2020-12-27 20:20 (:0)
+Appending a line to users.txt
