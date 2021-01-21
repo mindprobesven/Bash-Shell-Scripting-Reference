@@ -1,0 +1,3 @@
+DOMAIN_NAME              HTTP_CODE   RESPONSE_TIME
+google.com               301         0,078509    
+facebook.com             301         0,091444    
