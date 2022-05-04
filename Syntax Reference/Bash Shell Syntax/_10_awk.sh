@@ -26,6 +26,7 @@ echo
 
 # List sorted only the percentage integer values of partition space used
 df -h | awk '{print $5}' | grep -v Use | cut -d "%" -f1 | sort -nr
+echo
 
 # Regular expressions
 # -------------------

@@ -18,7 +18,6 @@ do
 	a=`expr $a - 1`
 done
 
-echo
+echo 		# New line
 
 echo 'Text with metacharacters $"#!'
-

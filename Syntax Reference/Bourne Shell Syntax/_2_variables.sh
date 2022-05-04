@@ -1,4 +1,4 @@
-!/bin/sh
+#!/bin/sh
 
 # Variables
 # --------------------------------------------------------------------
@@ -13,8 +13,9 @@ echo "Status: $NAME, $AGE, $MARRIED"
 # --------------------------------------------------------------------
 
 readonly NAME
-# Ouput: NAME: readonly variable
-# NAME="Sven"
+NAME="Sven"
+# Output
+# NAME: is read only
 
 # Unsetting Variables
 # --------------------------------------------------------------------

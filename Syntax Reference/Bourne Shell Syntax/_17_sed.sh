@@ -22,7 +22,7 @@ echo
 
 # The p option along with -n prints all matching lines
 cat /etc/passwd | sed -n '1,3p' | sed -n '/root/p'
+echo
 
-# This deletes all lines ending with sh
-cat /etc/passwd | sed -n '1,10p' | sed '/sh$/d'
-
+# This deletes all lines ending with nologin
+cat /etc/passwd | sed -n '1,10p' | sed '/nologin$/d'

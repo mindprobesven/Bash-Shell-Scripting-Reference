@@ -27,7 +27,7 @@ echo $sum
 # Environment variables can be listed via command 'env'
 # ----------------------------------------------------------
 
-# Exporting varibales
+# Exporting variables
 # ---------------------------------------------------------
 # To make a variable an environment variable, the script needs
 # to be launched via '. ./script.sh'

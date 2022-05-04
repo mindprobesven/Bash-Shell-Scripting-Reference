@@ -7,6 +7,7 @@
 file_extension="*.bla"
 
 ls -l $file_extension 2> /dev/null
+
 if [ $? -eq 2 ];
 then
 	echo "$file_extension not found"

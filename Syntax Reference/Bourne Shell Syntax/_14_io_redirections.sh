@@ -35,3 +35,4 @@ COMMAND
 # ----------------------------------
 # To not print output to the screen, redirect to /dev/null
 # command > /dev/null
+echo "Test" > /dev/null
